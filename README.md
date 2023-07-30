@@ -1,6 +1,8 @@
-#PROYECTO SITIO WEB AZAR
+# SITIO WEB AZAR
 
-##LENGUAJES APLICADOS
+##Lenguajes aplicados
 
-- -HTML
-- -CSS
+- HTML
+- CSS
+
+[![](https://cms.rootstack.com/sites/default/files/inline-images/23-237381_java-html-language-logo-png-transparent-png.png)](https://cms.rootstack.com/sites/default/files/inline-images/23-237381_java-html-language-logo-png-transparent-png.png)
