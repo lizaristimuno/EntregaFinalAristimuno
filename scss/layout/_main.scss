@@ -1,0 +1,112 @@
+.titular {
+    text-align: center;
+    @include flex-row;
+    justify-content: center;
+    margin-top: 2%;
+    color: $color-titular;
+    opacity: 0.6;
+    font-family: $font-titular;
+    font-size: 1.5rem;
+}
+
+.spotlight-home {
+    margin: .625rem;
+    padding: 1.25rem;
+    padding-bottom: 18.75rem;
+    @include flex-row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-descripcion {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.parrafo-descripcion {
+    padding: 1%;
+    text-align: justify;
+    font-family: $font-parrafo;
+    color: $color-parrafo;
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+}
+
+.section-principal {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    @include flex-row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.tarjeta-section-principal {
+    width: 12.5rem;
+    height: 12.5rem;
+    margin: 1.875rem;
+}
+
+.ficha-section-principal {
+    color: antiquewhite;
+    opacity: 0.6;
+    font-size: small;
+    object-fit: contain;
+}
+
+.portada-section-principal {
+    img {
+        object-fit: contain;
+        width: 100%;
+        height: 30%
+    }
+}
+
+.portada-video iframe {
+    object-fit: contain;
+    width: 100%;
+    height: 80%
+}
+
+.section-letra {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    @include flex-column;
+    align-items: center;
+
+    h3 {
+        margin-bottom: .625rem;
+        font-family: $font-titulo-letra;
+        font-size: 1rem;
+        color: $color-titulo-letra;
+    }
+}
+
+.parrafo-letra {
+    padding: 1%;
+    text-align: center;
+    font-family: $font-parrafo-letra;
+    font-size: 1.125rem;
+    color: $color-parrafo-letra;
+    margin-bottom: 1.25rem;
+}
+
+.volver {
+    padding-top: 5%;
+    padding-bottom: 2%;
+
+    a {
+        &:hover {
+            text-shadow: .0625rem .0625rem .0625rem white;
+        }
+
+        color: antiquewhite;
+        opacity: 0.6;
+        font-size: x-small;
+        margin-left: 1%;
+        text-decoration:double;
+    }
+}

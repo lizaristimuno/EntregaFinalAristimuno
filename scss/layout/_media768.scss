@@ -1,0 +1,44 @@
+@media (max-width:768px) {
+    .titulo-sitio h1 {
+        font-size: 3.125rem;
+    }
+
+    .lista-navbar {
+        margin-right: .625rem;
+        margin-left: .625rem;
+    }
+
+    .lista-navbar li {
+        a {
+            margin-left: .375rem;
+            margin-right: .375rem;
+            font-size: 1rem;
+        }
+    }
+
+    .titular {
+        font-size: 1.125rem;
+        padding: 5%;
+
+    }
+
+    .spotlight-home {
+        padding: 10%;
+    }
+
+    .ficha-section-principal {
+        font-size: .625rem;
+    }
+
+    .copyright {
+        font-size: x-small;
+    }
+
+    .parrafo-descripcion {
+        font-size: 1.0625rem;
+    }
+
+    .parrafo-letra {
+        font-size: 1.0625rem;
+    }
+}

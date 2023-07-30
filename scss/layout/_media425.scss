@@ -1,0 +1,52 @@
+@media (max-width:425px) {
+    .titulo-sitio h1 {
+        font-size: 2.8125rem;
+    }
+
+    .header-nav {
+        justify-content: center;
+    }
+
+    .lista-navbar li {
+        a {
+            margin-left: .25rem;
+            margin-right: .25rem;
+            font-size: 1rem;
+            font-weight: lighter;
+        }
+    }
+
+    .titular {
+        font-size: 1rem;
+    }
+
+    .ficha-section-principal {
+        font-size: x-small;
+    }
+
+    .volver a {
+        opacity: none;
+        font-size: xx-small;
+    }
+
+    .redes-navbar li {
+        a {
+            margin-left: .75rem;
+            margin-right: .75rem;
+            font-weight: lighter;
+        }
+    }
+
+    .copyright {
+        font-size: xx-small;
+    }
+
+    .parrafo-descripcion {
+        font-size: 1rem;
+    }
+
+    .parrafo-letra {
+        font-size: 1rem;
+    }
+
+}

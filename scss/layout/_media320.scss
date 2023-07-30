@@ -1,0 +1,45 @@
+@media (max-width:320px) {
+    .titulo-sitio h1 {
+        font-size: 2.1875rem;
+    }
+
+    .header-nav {
+        justify-content: end;
+    }
+
+    .lista-navbar {
+        text-align: right;
+        flex-direction: column;
+        justify-content: baseline;
+    }
+
+    .lista-navbar li {
+        a {
+            margin-left: .3125rem;
+            margin-right: .3125rem;
+            font-size: .9375rem;
+            font-weight: lighter;
+        }
+    }
+
+    .volver {
+        @include flex-row;
+        justify-content: center;
+    }
+
+    .volver a {
+        opacity: none;
+        font-size: xx-small;
+    }
+
+    .redes-navbar li {
+        a {
+            margin-left: .625rem;
+            margin-right: .625rem;
+        }
+    }
+
+    .copyright {
+        font-size: xx-small;
+    }
+}

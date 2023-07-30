@@ -1,0 +1,53 @@
+@media (max-width:375px) {
+    .titulo-sitio h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-nav {
+        justify-content: center;
+    }
+
+    .header-nav {
+        justify-content: end;
+    }
+
+    .lista-navbar {
+        text-align: right;
+        flex-direction: column;
+        justify-content: baseline;
+    }
+
+    .lista-navbar li {
+        a {
+            margin-left: .25rem;
+            margin-right: .25rem;
+            font-size: .9375rem;
+            font-weight: lighter;
+        }
+    }
+
+    .ficha-section-principal {
+        font-size: xx-small;
+    }
+
+    .volver {
+        @include flex-row;
+        justify-content: center;
+    }
+
+    .volver a {
+        opacity: none;
+        font-size: xx-small;
+    }
+
+    .redes-navbar li {
+        a {
+            margin-left: .625rem;
+            margin-right: .625rem;
+        }
+    }
+
+    .copyright {
+        font-size: xx-small;
+    }
+}

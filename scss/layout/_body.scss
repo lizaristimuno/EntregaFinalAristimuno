@@ -1,0 +1,11 @@
+body {
+    background-image: url("../assets/img/azar_3.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+.body-letras{
+    @extend body;
+    background-image: none;
+    background-color: black;
+}

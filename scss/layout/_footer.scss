@@ -1,0 +1,35 @@
+footer {
+    height: 6.25rem;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.footer-nav {
+    width: 100%;
+    top: 15%;
+}
+
+.redes-navbar {
+    @include flex-row;
+    justify-content: center;
+    list-style: none;
+
+    li {
+        a {
+            margin-top: .3125rem;
+            margin-left: .9375rem;
+            margin-right: .9375rem;
+        }
+    }
+}
+
+.copyright {
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+    left: 0.5%;
+    bottom: 5%;
+    color: $color-copyright;
+}
