@@ -1,15 +1,16 @@
 footer {
-    height: 6.25rem;
+    height: 9.375rem;
     width: 100%;
     position: relative;
     background-color: black;
-    opacity: 0.3;
-}
+    opacity: 0.4;
+  }
 
 .footer-nav {
+    padding-top: 1%;
     width: 100%;
-    top: 15%;
-}
+    top:15%;
+  }
 
 .redes-navbar {
     @include flex-row;

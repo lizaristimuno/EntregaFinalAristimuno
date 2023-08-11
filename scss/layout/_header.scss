@@ -34,11 +34,13 @@ header {
     @include flex-row;
     margin-bottom: .3125rem;
     margin-right: .9375rem;
-
     li {
+        transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+        &:hover{
+            transform: scale(1.02,1.02);
+        }
         a {
             &:hover {
-                text-decoration: underline;
                 text-shadow: .0625rem .0625rem .0625rem white;
             }
 

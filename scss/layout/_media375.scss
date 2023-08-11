@@ -33,6 +33,7 @@
     .volver {
         @include flex-row;
         justify-content: center;
+        padding-bottom: 4%;
     }
 
     .volver a {
