@@ -1,11 +1,11 @@
 body {
-    background-image: url("../assets/img/azar_3.jpg");
+    background-image: url("../assets/img/azar_3_2.jpg");
     background-size: cover;
     width: 100%;
 }
 
-.body-letras{
-    @extend body;
+.body-letras {
     background-image: none;
-    background-color: black;
-}
+    background: rgb(10, 1, 16);
+    background: linear-gradient(214deg, rgba(10, 1, 16, 1) 26%, rgba(12, 66, 94, 1) 100%);
+  }
